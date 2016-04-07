@@ -2,7 +2,7 @@
 # 云监工原作者powergx
 
 FROM tutum/ubuntu:trusty
-MAINTAINER hauntek <hauntek@hotmail.com>
+
 
 RUN rm /bin/sh &&  ln -s /bin/bash /bin/sh
 
@@ -17,7 +17,7 @@ RUN mkdir /app
 WORKDIR /app
 
 #下载云监工源代码
-RUN git clone https://github.com/hauntek/crysadm.git
+RUN git clone https://github.com/ccav14/crysadm.git
 
 #redis数据库保存目录
 VOLUME ["/var/lib/redis"]
