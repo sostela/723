@@ -1,5 +1,5 @@
 # 这是迅雷云监工的docker程序
-# 云监工原作者powergx
+# 云监工原作者powergx以及各位贡献者
 
 FROM tutum/ubuntu:trusty
 
@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y git wget sudo vim nginx curl
 RUN mkdir /app 
 RUN cd /app
 #下载云监工源代码
-RUN git clone https://github.com/ccav14/xxoo.git
+RUN git clone https://github.com/ccav14/crysadm.git
 #添加计划任务每小时运行云监工
 #RUN echo '0 * * * * root sh /app/crysadm/run.sh' >> /etc/crontab
 
