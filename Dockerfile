@@ -1,5 +1,5 @@
 # 这是迅雷云监工的docker程序
-# 云监工原作者powergx
+# 云监工原作者powergx,所有贡献者以及CCTV
 
 FROM tutum/ubuntu:trusty
 
